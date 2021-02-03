@@ -4,7 +4,7 @@
 module.exports = function towelSort (matrix) {
     let newArr = [];
 
-    if (matrix === undefined || matrix.length === 0) {
+    if (!matrix) {
         return [];
     }
 
